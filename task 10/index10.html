@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10 - Advanced JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Product Store (JSON + ES6)</h1>
+
+    <div class="controls">
+        <button onclick="sortPriceLow()">Sort: Low → High</button>
+        <button onclick="sortPriceHigh()">Sort: High → Low</button>
+        <button onclick="filterCategory('electronics')">Electronics</button>
+        <button onclick="filterCategory('jewelery')">Jewelery</button>
+        <button onclick="renderProducts(allProducts)">Reset</button>
+    </div>
+
+    <div id="product-list" class="product-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
