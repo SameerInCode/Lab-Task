@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <course>
+        <code>CS101</code>
+        <title>Introduction to Computer Science</title>
+        <credits>3</credits>
+    </course>
+    <course>
+        <code>ENG201</code>
+        <title>English Literature</title>
+        <credits>2</credits>
+    </course>
+</catalog>
